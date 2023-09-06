@@ -1,5 +1,13 @@
-function HomePage(){
-  return <h1>Hello World</h1>
-}
+"use client"
 
-export default HomePage;
+import Users from "../components/User"
+
+export default function HomePage() {
+  return <section>
+  <h1>Hello World</h1>
+  {
+    window.localStorage.getItem("token")
+  }
+  <Users/>
+  </section>
+}
