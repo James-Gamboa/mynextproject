@@ -1,6 +1,6 @@
 "use client"
 
-import Users from "../components/User"
+import Users from "@/components/User"
 
 export default function HomePage() {
   //server component
